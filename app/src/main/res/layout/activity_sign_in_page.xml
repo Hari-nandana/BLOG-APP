@@ -1,0 +1,47 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="70px"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:text="ADD POST"
+        android:textColor="#F3F5F5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH POST"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:textColor="#F3F5F5"
+        android:layout_margin="10px"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="VIEW POST"
+        android:background="@drawable/background"
+        android:textColor="#F3F5F5"
+        android:layout_margin="10px"
+        android:id="@+id/view"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE POST"
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:textColor="#F3F5F5"
+        android:layout_margin="10px"
+        android:id="@+id/delete"/>
+</LinearLayout>

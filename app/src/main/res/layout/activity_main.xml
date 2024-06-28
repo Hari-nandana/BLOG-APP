@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="70px"
+    android:gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="114dp"
+        android:background="@drawable/s" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_margin="15px"
+        android:textColor="@color/white"
+        android:background="@drawable/background"
+        android:textStyle="bold"
+        android:id="@+id/signin"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_margin="15px"
+        android:textColor="@color/white"
+        android:background="@drawable/background"
+        android:textStyle="bold"
+        android:id="@+id/signup"/>
+
+
+
+</LinearLayout>
